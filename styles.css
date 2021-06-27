@@ -74,3 +74,27 @@ header .titulos1{
   color: rgb(255, 255, 255);
   border: 1px solid #4a4a4a;
 }
+
+.videojuegos h3 {
+  text-align: center;
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+  background: #18e6ab;  
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsla(152, 72%, 83%, 0.260), rgba(90, 165, 145, 0.260)), url(./imagenes/fondo22.jpg);  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right,rgba(104, 168, 151, 0.260), rgba(49, 78, 71, 0.260)), url(./imagenes/fondo22.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+  position: relative;
+  color: rgb(255, 255, 255);
+  border: 1px solid #4a4a4a;
+}
+
+.colegas h3 {
+  text-align: center;
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+  background: #CAC531;
