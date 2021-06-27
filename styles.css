@@ -30,3 +30,13 @@ header .titulos1{
     text-align: center;
     margin-bottom: 60px;
 }
+
+.presentación{
+  text-align: center;
+  font-size: 20px;
+}
+
+.contenido{
+  margin: 70px;
+  font-size: 20px;
+}
