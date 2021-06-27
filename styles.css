@@ -40,3 +40,21 @@ header .titulos1{
   margin: 70px;
   font-size: 20px;
 }
+
+.cursos1 h3 {
+  text-align: center;
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+  background: #EB5757;
+  background: -webkit-linear-gradient(to right, hsl(0, 0%, 0%, 0.411), hsl(0, 79%, 63%, 0.411)), url(./imagenes/fondo2.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(0, 0%, 0%, 0.411), hsl(0, 79%, 63%, 0.411)), url(./imagenes/fondo2.jpg);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+  position: relative;
+  color: rgb(255, 255, 255);
+  border: 1px solid #4a4a4a;
+}
+
+
