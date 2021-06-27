@@ -57,4 +57,19 @@ header .titulos1{
   border: 1px solid #4a4a4a;
 }
 
-
+.trabajos1 h3 {
+  text-align: center;
+  height: 45px;
+  overflow: hidden;
+  position: relative;
+  background: #a8b7d1;  
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, hsla(212, 28%, 25%, 0.267), rgba(34, 44, 63, 0.274)), url(./imagenes/fondo21.jpg);  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(53, 73, 95, 0.322), rgba(41, 52, 73, 0.308)), url(./imagenes/fondo21.jpg);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+  position: relative;
+  color: rgb(255, 255, 255);
+  border: 1px solid #4a4a4a;
+}
