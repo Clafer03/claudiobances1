@@ -108,3 +108,38 @@ header .titulos1{
   color: rgb(255, 255, 255);
   border: 1px solid #4a4a4a;
 }
+
+.footer1 {
+  height: 50px;
+  overflow: hidden;
+  position: relative;
+  background: #EB5757;
+  background: -webkit-linear-gradient(to right, hsl(0, 0%, 0%, 0.411), hsl(0, 79%, 63%, 0.411)), url(./imagenes/fondo2.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, hsla(0, 0%, 0%, 0.411), hsl(0, 79%, 63%, 0.411)), url(./imagenes/fondo2.jpg);
+   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-attachment: fixed;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  border: 1px solid #4a4a4a;
+}
+
+.footer1 pre {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+  -moz-transform: translateX(50%);
+  -webkit-transform: translateX(50%);
+  transform: translateX(50%);
+  -moz-animation: bouncing-text 5s linear infinite alternate;
+  -webkit-animation: bouncing-text 5s linear infinite alternate;
+  animation: bouncing-text 11s linear infinite alternate;
+}
+
+.footer1 a{
+  color: rgb(255, 255, 255);
+}
